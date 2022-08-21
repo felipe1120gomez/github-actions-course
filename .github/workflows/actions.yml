@@ -2,6 +2,8 @@ name: Actions Workflow
 
 on: [push, pull_request]
 
+# Change for pull_request
+
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
