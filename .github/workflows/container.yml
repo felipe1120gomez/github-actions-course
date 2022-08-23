@@ -5,7 +5,7 @@ jobs:
   docker-steps:
     runs-on: ubuntu-latest
     container:
-      image: okteto/node
+      image: okteto/node:16
     steps:
       - name: log node version
         run: |
